@@ -498,6 +498,11 @@ ul, ol {
 }
 
 @media (max-width: 600px){
+    
+    .sub__nav__item svg{
+        display: none;
+    }
+
     .footer__nav__menu {
         flex-direction: column;
         align-items: center;
